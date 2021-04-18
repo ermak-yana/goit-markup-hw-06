@@ -401,6 +401,22 @@
                     </ul>
                 </div>
             </div>
+            <div class="footer-mailing">
+                <p class="mailing-title">Подпишитесь на рассылку</p>
+                <div class="form">
+                    <form name="signup_form">
+                        <input class="input" type="email" name="email" placeholder="E-mail" />
+                      </form>
+                      <button class="button button-title" type="submit">подписаться
+                        <svg class="icon" width="24" height="24">
+                          <use href="./images/icon/sprite.svg#icon-send"></use>
+                        </svg>
+                      </button>
+
+                </div>
+
+            </div>
+
         </div>
     </footer>
   <div class="backdrop is-hidden" data-modal>
@@ -445,16 +461,19 @@
                     </svg>
               </div>
 
-              <div class="form-field">
-              <label for="comment"class="form-label" >Комментарий </label>
-              <textarea name="comment" id="comment" placeholder="Введите текст" cols="30" rows="10"></textarea>
+            <div class="form-field">
+                <label for="comment"class="form-label" >Комментарий </label>
+                 <textarea class="form-textarea" name="comment" id="comment" placeholder="Введите текст" cols="30" rows="10"></textarea>
             </div>
-            
-            <input type="checkbox" name="police" value="Соглашаюсь с рассылкой и принимаю Условия договора" id="police">
-            <label for="police"> 
+            <div class="form-field">
+                <label class=".checkbox-label" >           
+                <input type="checkbox" class="checkbox-modal visually-hidden "name="police" value="i-agree" >
+                <span class="icon-checkbox"></span>
                <span class="text-checkbox"> Соглашаюсь с рассылкой и принимаю</span>
-               <a href="" class="checkbox-link"> Условия договора</a></label>
+               <a href="" class="checkbox-link"> Условия договора</a>
+            </label>
             <button type="submit" class="button-send">Отправить</button>
+        </div>
             </form>
              
             
