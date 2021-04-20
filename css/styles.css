@@ -820,6 +820,7 @@ color: var(--primary-white-color);
   margin: 0;
   padding: 0;
   color: var(--text-color);
+  outline: none;
 }
 
 .form-input {
@@ -891,6 +892,10 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-color);
 
+
+margin: 0;
+  margin-left: 7px;
+
 }
 .checkbox-label{
   position: absolute;
@@ -899,8 +904,10 @@ color: var(--text-color);
 
   margin-left: 50px;
 }
+
+
 .icon-checkbox{
-  display:inline-block;
+  display: inline-block;
   margin-right: 8.38px;
   width: 16px;
   height: 15px;
@@ -918,10 +925,14 @@ color: var(--text-color);
   background-origin: border-box;
 
 }
+
 .checkbox-link{
+  margin: 0px;
+  margin-left: 5px;
+  text-align: center;
+  font-weight: 400;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
 text-decoration-line: underline;
 
 color:var(--accent-color);
