@@ -863,12 +863,14 @@ letter-spacing: 0.01em;
 }
 
  .form-textarea {
-  height: 120px;
-  padding: 12px 16px;
-  resize: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
   border: 1px solid rgba(33, 33, 33, 0.2);
-  box-sizing: border-box;
-  border-radius: 4px;
+box-sizing: border-box;
+border-radius: 4px;
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -881,7 +883,7 @@ letter-spacing: 0.01em;
 .form-textarea::placeholder {
    padding-left: 16px;
    padding-top: 12px;
-   font-size: 12px;
+   font-size: 14px;
 line-height: 14px;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5); 
@@ -929,8 +931,7 @@ margin: 0;
   display: flex;
   align-items: center;
 
-  margin-left: 50px;
-
+  margin-left: 54px;
 }
 .checkbox-link{
   margin: 0px;
